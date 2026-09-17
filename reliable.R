@@ -1,7 +1,7 @@
 # exp1
 
 library(dplyr)
-data <- read.csv("data.csv") # header=3, skip = 19
+data <- read.csv("data1.csv") # header=3, skip = 19
 colnames(data) <- c("condition","code", "att1", "att2", "att3", "att4", "att5", 
                     "att6", "att7", "att8", "social1","social2","social3","social4",
                     "social5","iden1","iden2", "anx1_1", "anx1_2", "anx1_3", "anx1_4", "anx1_5", "anx1_6", "anx1_7", "anx1_8", "anx1_9"
